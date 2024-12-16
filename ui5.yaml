@@ -13,6 +13,7 @@ server:
         ui5:
           path:
             - /resources
+            - /test-resorces
           url: https://ui5.sap.com
     - name: fiori-tools-appreload
       afterMiddleware: compression
